@@ -11,3 +11,11 @@ Or if you see in Redis logs:
 
 See more: [https://redis.io/topics/faq](https://redis.io/topics/faq)
 
+## Usage
+
+You can build your own image based on this Dockerfile, or just use [ready image](https://hub.docker.com/r/mexx/redis-overcommit-enabled/):
+
+```
+docker pull mexx/redis-overcommit-enabled:latest
+```
+
